@@ -5,6 +5,7 @@ $ apt install ruby
 $ apt install git
 $ git clone https://github.com/Dreifus-404/The-Tool
 $ cd The-Tool
+$ chmod +x install.rb
 $ ruby install.rb
 [~$] Agradecimentos
 $ Sysb1n
