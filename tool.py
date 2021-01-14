@@ -18,7 +18,7 @@ def ex():
     print("""
 [~$] Ola Bem Vindo A Minha Tool De Instalaçāo
 [~$] Essa Tool Serve Para Fazer Instalaçōes Basicas Para Seu Terminal Linux
-[~$] Ela Esta Escrita Em Python Tambêm O Link Esta Na Pasta Da Ferramenta
+[~$] Ela Esta Escrita Em Ruby Tambêm Ela Esta Na Pasta Da Ferramenta
 [~$] Espero Que Goste, Aproveite
 
 
