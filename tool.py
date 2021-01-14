@@ -14,6 +14,18 @@ def banner():
 
 
    	""")
+def ex():
+    print("""
+[~$] Ola Bem Vindo A Minha Tool De Instalaçāo
+[~$] Essa Tool Serve Para Fazer Instalaçōes Basicas Para Seu Terminal Linux
+[~$] Ela Esta Escrita Em Python Tambêm O Link Esta Na Pasta Da Ferramenta
+[~$] Espero Que Goste, Aproveite
+
+
+                   [~$] Press Enter For Continue
+
+                                                 """)
+   gem = input("")
 def opc():
     print("[1] Interpretadores")
     print(), print()
@@ -21,6 +33,8 @@ def opc():
     print(), print()
     opc1 = int(input(""))
     return opc1
+banner()
+ex()
 banner()
 opc = opc()
 if(opc == 1):
