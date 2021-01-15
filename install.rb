@@ -1,5 +1,5 @@
 system "clear"
-system "apt update && apt updgrade
+system "apt update && apt updgrade"
 system "apt install ruby -y"
 system "clear"
 puts "\n\n\n"
