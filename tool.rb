@@ -14,7 +14,7 @@ def b1()
 def ex()
   puts "[~$] Ola Bem Vindo A Minha Tool De Instalaçāo"
   puts "[~$] Essa Tool Serve Para Fazer Instalaçōes Basicas Para Seu Terminal Linux"
-  puts "[~$] Ela Esta Escrita Em Python Tambêm Ela Esta Na Pasta Da Ferramenta"
+  puts "[~$] Esta Tool Esta Bem Beta Fique De Olho Logo mais Tera Atualizações"
   puts "[~$] Espero Que Goste, Aproveite"
   puts "\n\n"
   puts "                   [~$] Press Enter For Continue"
