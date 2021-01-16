@@ -1,6 +1,4 @@
-################
-### C O D E ####
-################
+#C0D3~#
 def b1()
   system "clear"
   puts "\n\n\n"
@@ -22,11 +20,20 @@ def ex()
   inicio = gets
   system "clear"
   end
+def slp()
+  puts "\n\n"
+  puts "[~$] Aguarde 5 Segundos..."
+  sleep 5
+  end
+def fim()
+  puts "            [~$]•Instalação• > Concluida"
+  puts "\n\n"
+  end
 def opc()
   puts "[1] Interpretadores"
   puts "[2] Pacotes A Mais"
   puts "\n\n"
-  puts "                     •Select• One Option"
+   puts "                     •Select• One Option"
   puts "\n\n"
   opc = gets.to_i
   return opc
@@ -51,27 +58,39 @@ if esc == 1
   when 1
     system "clear"
     system "apt install python2 -y"
+    slp()
     b1()
+    fim()
   when 2
     system "clear"
     system "apt install python3 -y"
+    slp()
     b1()
+    fim()
   when 3
     system "clear"
     system "apt install ruby -y"
+    slp()
     b1()
+    fim()
   when 4
     system "clear"
     system "apt install perl -y"
+    slp()
     b1()
+    fim()
   when 5
     system "clear"
     system "apt install php -y"
+    slp()
     b1()
+    fim()
   when 6
     system "clear"
     system "apt install git -y"
+    slp()
     b1()
+    fim()
   when 99
     system "clear"
     system "apt update && apt upgrade -y"
@@ -81,7 +100,9 @@ if esc == 1
     system "apt install perl -y"
     system "apt install php -y"
     system "apt install git -y"
+    slp()
     b1()
+    fim()
     end
   end
 if esc == 2
@@ -102,31 +123,45 @@ if esc == 2
   when 1
     system "clear"
     system "apt install binutils -y"
+    slp()
     b1()
+    fim()
   when 2
     system "clear"
     system "apt install coreutils -y"
+    slp()
     b1()
+    fim()
   when 3
     system "clear"
     system "apt install dnsutils -y"
+    slp()
     b1()
+    fim()
   when 4
     system "clear"
     system "apt install openssh -y"
+    slp()
     b1()
+    fim()
   when 5
     system "clear"
     syatem "apt install wget -y"
+    slp()
     b1()
+    fim()
   when 6
     system "clear"
     system "apt install curl -y"
+    slp()
     b1()
+    fim()
   when 7
     system "clear"
     system "apt install zsh -y"
+    slp()
     b1()
+    fim()
   when 99
     system "clear"
     system "apt install binutils -y"
@@ -136,6 +171,8 @@ if esc == 2
     system "apt install wget -y"
     system "apt install curl -y"
     system "apt install zsh -y"
+    slp()
     b1()
+    fim()
     end
-end
+  end
