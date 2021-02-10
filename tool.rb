@@ -154,5 +154,5 @@ if opc == 4
 end
 
 if opc == 0
-   system 'clear && cd $H'
+   system 'clear && echo "tanks use for my tool, bye bye"'
 end
